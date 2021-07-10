@@ -1,0 +1,22 @@
+{
+	"name": "talk",
+	"version": "2.0.4",
+	"description": "A  video call app for the web.",
+	"main": "server.js",
+	"scripts": {
+	    
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	
+	"keywords": [
+		"webrtc",
+		"socket.io",
+		"video"
+	],
+	
+	"dependencies": {
+		"express": "^4.17.1",
+		"socket.io": "^4.0.1",
+		"vue": "^2.6.12"
+	}
+}
