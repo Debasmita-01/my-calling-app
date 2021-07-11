@@ -1,7 +1,7 @@
 {
-	"name": "talk",
+	"name": "my-calling-app",
 	"version": "2.0.4",
-	"description": "A  video call app for the web.",
+	"description": "A  video calling and chat app for the web.",
 	"main": "server.js",
 	"scripts": {
 	    

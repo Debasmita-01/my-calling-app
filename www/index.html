@@ -6,23 +6,23 @@ r<!DOCTYPE html>
 			name="viewport"
 			content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
 		/>
-		<meta name="description" content="Talk - A free video call app for the web." />
+		<meta name="description" content="My-calling-app - A  video calling and chat app for the web." />
 		<meta
-			name="keywords"
+			name="keywords"S
 			content="group video chat, video communication, multiparty video chat, video chat, webrtc, peer to peer, p2p"
 		/>
 		<meta name="application-name" content="Talk" />
 		<!-- Meta data for link fetching -->
 		<meta property="og:url" content="https://usetalk.io" />
 		<meta property="og:image" content="https://usetalk.io/icon.png" />
-		<meta property="og:title" content="Talk - Free group video call for the web" />
-		<meta
+		<!-- <meta property="og:title" content="Talk - Free group video call for the web" /> -->
+		<!-- <meta
 			property="og:description"
 			content="Talk is a free & open-source video conference app for the web. Works in all major browsers. No signups. No downloads. 100% peer-to-peer."
-		/>
+		/> -->
 
 		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-		<link rel="icon" href="/favicon.svg" />
+		<link rel="icon" href="/favicon.png" />
 		<link rel="stylesheet" href="/style.css" />
 		<script defer sc="https://webrtc.github.io/adapter/adapter-latest.js"></script>
 		<script defer src="/socket.io/socket.io.js"></script>
@@ -40,7 +40,7 @@ r<!DOCTYPE html>
 			<div id="intro" v-if="showIntro && !showChat && !showSettings">
 				
 				<div id="logo">
-					<img src="meet.png" />
+					<img src="meet.png" class="center"/>
 				</div>
 				<p style="text-align:center">
 					<strong>Start Calling</strong> 
@@ -52,34 +52,14 @@ r<!DOCTYPE html>
 						<a class="copyURL" href="javascript:void(0)" v-on:click="copyURL">{{copyText || "Copy"}}</a>
 					</small>
 				</p>
-				<div class="footer">
-					<!-- <iframe
-						src="https://ghbtns.com/github-btn.html?user=vasanthv&repo=talk&type=star&count=true"
-						frameborder="0"
-						scrolling="0"
-						width="150"
-						height="20"
-						title="GitHub"
-					></iframe> -->
-					<a href="/login.html" class="terms light">Go back to home page</a>
-				</div>
+				<!-- <div class="footer"> -->
+					<div style="text-align:center">  
+						<div  class="terms light"><p style="text-align:center">Copy this link and share it with others to start calling.You can chat as well as share screen during the video call.</p></div>
+					
+					</div>
+				<!-- </div> -->
 			</div>
 			
-<!-- 			
-			
-			<div id="ending" v-if="showIntro && !showChat && !showSettings">
-				
-				<div id="logo">
-					<img src="hello.png" />
-				</div>
-				<p style="text-align:center">
-					<strong>Start Calling</strong> 
-				</p>
-				
-				
-			</div> -->
-
-
 
 
 
