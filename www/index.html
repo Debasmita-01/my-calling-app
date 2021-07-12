@@ -1,4 +1,4 @@
-r<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -11,16 +11,8 @@ r<!DOCTYPE html>
 			name="keywords"S
 			content="group video chat, video communication, multiparty video chat, video chat, webrtc, peer to peer, p2p"
 		/>
-		<meta name="application-name" content="Talk" />
-		<!-- Meta data for link fetching -->
-		<meta property="og:url" content="https://usetalk.io" />
-		<meta property="og:image" content="https://usetalk.io/icon.png" />
-		<!-- <meta property="og:title" content="Talk - Free group video call for the web" /> -->
-		<!-- <meta
-			property="og:description"
-			content="Talk is a free & open-source video conference app for the web. Works in all major browsers. No signups. No downloads. 100% peer-to-peer."
-		/> -->
-
+		<meta name="application-name" content="My-calling-app" />
+	
 		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
 		<link rel="icon" href="/favicon.png" />
 		<link rel="stylesheet" href="/style.css" />
@@ -30,7 +22,7 @@ r<!DOCTYPE html>
 		<script defer src="app.js"></script>
 		<script defer src="script.js"></script>
 		<title>MS Teams Clone</title>
-		<!-- Below line is an alytics script. Delete it if you are deploying it on your own cloud  -->
+		
 		<script async defer src="https://stats.usetalk.io/hello.js"></script>
 	</head>
 
@@ -86,7 +78,7 @@ r<!DOCTYPE html>
 			</div>
 
 			<div id="settings" v-if="showSettings">
-				<div class="label">Camera 📹</div>
+				<div class="label">Camera </div>
 				<div v-for="(videoDevice, i) in videoDevices" v-bind:key="videoDevice.deviceId">
 					<div
 						v-bind:class="'link '+(selectedVideoDeviceId === videoDevice.deviceId ? 'active' : '')"
@@ -96,7 +88,7 @@ r<!DOCTYPE html>
 					</div>
 				</div>
 
-				<div class="label">Microphone 🎙️</div>
+				<div class="label">Microphone </div>
 				<div v-for="(audioDevice, i) in audioDevices" v-bind:key="audioDevice.deviceId">
 					<div
 						v-bind:class="'link '+(selectedAudioDeviceId === audioDevice.deviceId ? 'active' : '')"
@@ -106,7 +98,7 @@ r<!DOCTYPE html>
 					</div>
 				</div>
 
-				<div class="label">Name 📛</div>
+				<div class="label">Name </div>
 				<input type="text" placeholder="Your name" v-model="name" v-on:keyup="nameToLocalStorage" />
 
 				<div class="copy link" v-on:click="copyURL">{{copyText || "Copy room link"}}</div>
