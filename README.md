@@ -5,7 +5,7 @@
  ## A very simple application that allows us to stream audio and video to the connected device.Technology stack used:
 
 - HTML5,CSS3 and Javascript for frontend
-- Nodejs fir backend - express library to server statis files like our HTML file which stands for our UI
+- Nodejs for backend - express library to server statis files like our HTML file which stands for our UI
 - Socket.io library to establish a connection between two devices 
 - WebRTC to allow media devices(camera and microphone) to stream audio and video between connected devices
 - WebRTC mesh for group video call
