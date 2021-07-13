@@ -16,5 +16,40 @@
 - Node.js 8.x or above
 - NPM
 
-![ScreenShot](https://raw.github.com/Debasmita-01/my-calling-app/main/imgs/img1.jpeg)
+<div align="center">
+    <img src="/imgs/img1.jpeg" width="700px"</img> 
+  </div>   
+  
+<div align="center">
+    <img src="/imgs/img2.jpeg" width="700px"</img> 
+</div> 
+<div align="center">
+    <img src="/imgs/img3.jpeg" width="700px"</img> 
+ </div>
+ <div align="center">
+    <img src="/imgs/img4.jpeg" width="700px"</img> 
+ </div>
+ <div align="center">
+    <img src="/imgs/img5.jpeg" width="700px"</img> 
+ </div>
+ <div align="center">
+    <img src="/imgs/img6.jpeg" width="700px"</img> 
+</div>
+
+### How to run this locally
+- Fork this repo and then clone it
+- `cd my-calling-app` and then install dependencies
+- npm install
+- Run the app in your localhost
+- npm start
+
+
+
+### Limitations and scope of improvement:
+- The call quality gets reduced if more than three participants join
+- Participants cannot chat before and after the meeting
+- No user authentication added
+- Thought of implementing topic wise chat rooms could not implement it due to shoratge of time
+
+
  
