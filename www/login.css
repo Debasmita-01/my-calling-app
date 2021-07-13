@@ -1,4 +1,4 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+ @import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 
 body{
     font-family: 'Quicksand', sans-serif;
@@ -44,7 +44,7 @@ body{
 .logo{
     width:40%;
     /* padding: 30px 70px 25px 100px; */
-    /* margin-left: 30%;
+     margin-left: 30%;
 }
 
 .signin-btn{
@@ -154,4 +154,4 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgba(246, 245, 252, 0.438);
 }
-     */ 
+     
