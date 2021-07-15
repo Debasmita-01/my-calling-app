@@ -11,6 +11,17 @@
 - WebRTC mesh for group video call
 
 
+### Features:
+
+-  As soon as you click on the [link](https://my-calling-app.herokuapp.com/), an automatic link is generated which can be shared with other people and asked to join
+- Supports one to many video call ,the call quality can be reduced if more than 4 people join
+- Participants can switch on and off their video and audio during the meeting
+- There is a chat box where participants can chat during the meeting
+- Screen sharing feature is there
+- A particular participant can be pinned to screen using the top square icon in the right
+- For the UI ,I tried giving it a glassmorphic look
+
+
 ### Prerequisites:
 
 - Node.js 8.x or above
